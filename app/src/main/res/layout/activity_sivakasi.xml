@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sivakasi"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        app:layout_collapseMode="pin">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Start : Virudhunagar"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="End : Sivakasi"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Distance : 27 KM\n"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black" />
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/search_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:queryHint="Search Your Place"
+            app:iconifiedByDefault="false"/>
+
+        <ImageView
+            android:layout_width="360dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/header"
+            />
+
+
+    </LinearLayout>
+
+
+    <ListView
+        android:layout_below="@+id/appbar"
+        android:id="@+id/lvsiva"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@drawable/divider"/>
+
+
+
+</RelativeLayout>

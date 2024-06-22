@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name"> Local Bus </string>
+
+   /*1*/ <string-array name="vnr_bus_stand">
+        <item>Appayanayakkanpatti</item>
+        <item>Arasakudumpanpatti</item>
+        <item>Aruppukottai</item>
+        <item>Collector Office</item>
+        <item>Erichanatham</item>
+        <item>Goundanpatti</item>
+        <item>Inamreddiyapatti</item>
+        <item>Kadalaadi</item>
+        <item>kadanari</item>
+        <item>kalaperumalpatti</item>
+        <item>Kallikudi</item>
+        <item>T.Kallupatti</item>
+        <item>Kambam</item>
+        <item>Kamuthi</item>
+        <item>Kariyapatti</item>
+        <item>keppilingampatti</item>
+        <item>Killanthulukkangulam</item>
+        <item>T.Kodikulam</item>
+        <item>kottur</item>
+        <item>kullursanthai</item>
+        <item>Kurangudi</item>
+        <item>kurundhamadam</item>
+        <item>Malaipatti</item>
+        <item>Mallayanayakkanpatti</item>
+        <item>Manamadurai</item>
+        <item>Mankalam</item>
+        <item>Maravapatti</item>
+        <item>Maruthanatham</item>
+        <item>Mathiyasenai</item>
+        <item>Melaamatthur</item>
+        <item>Mesalur</item>
+        <item>Muthukulathur</item>
+        <item>V.Muthulingapuram</item>
+        <item>Nagorcoil</item>
+        <item>Nallamanayakanpatti</item>
+        <item>Nellai</item>
+        <item>Ondipuli</item>
+        <item>Ondlipulinayakkanoor</item>
+        <item>Panthalkudi</item>
+        <item>Peikulam</item>
+        <item>Pekkulam</item>
+        <item>Peraiur</item>
+        <item>Perali</item>
+        <item>Pilavakkaldam</item>
+        <item>Pommayapuram</item>
+        <item>Puliyankudi</item>
+        <item>Puliyankulam</item>
+        <item>Pullakkottai</item>
+        <item>A.Puthupatti</item>
+        <item>M.Puthupatti</item>
+        <item>Rajapalayam</item>
+        <item>S.Ramalingapuram</item>
+        <item>Ramanathapuram</item>
+        <item>Rameshwaram</item>
+        <item>R.R.Nagar</item>
+        <item>Salnayakkanpatti</item>
+        <item>Sangaralingapuram</item>
+        <item>Sangarankovil</item>
+        <item>Sattur</item>
+        <item>Sengottai</item>
+        <item>Sennelgudi</item>
+        <item>Servaikaranpatti</item>
+        <item>Sethur</item>
+        <item>Sivagangai</item>
+        <item>Sivakasi</item>
+        <item>Srivilliputhur</item>
+        <item>Sundaralingapuram</item>
+        <item>Sundarapandiyam</item>
+        <item>Tennallor</item>
+        <item>Thathampatti</item>
+        <item>Theni</item>
+        <item>Thennamanallur</item>
+        <item>Thiruchandur</item>
+        <item>Thiruchuli</item>
+        <item>Thirumangalam</item>
+        <item>Thiruthangal</item>
+        <item>Usilampatti</item>
+        <item>Vadamalaikurichi</item>
+        <item>Vathrapu</item>
+        <item>Vellakulam</item>
+        <item>Vellur</item>
+        <item>Vembar</item>
+        <item>V.H.N.S.N college</item> /*1*/
+
+</string-array>
+
+
+
+</resources>

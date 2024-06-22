@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sattur"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:id="@+id/details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        app:layout_collapseMode="pin">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Start : Virudhunagar"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="End : Sattur"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Distance : 29 KM"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Time taken : 50 minutes"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Way : R.R Nagar\n"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/black" />
+
+
+
+        <ImageView
+            android:layout_width="360dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/header"
+            />
+
+
+    </LinearLayout>
+
+
+    <ListView
+        android:layout_below="@+id/details"
+        android:id="@+id/lvsattur"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@drawable/divider"/>
+
+
+
+</RelativeLayout>
